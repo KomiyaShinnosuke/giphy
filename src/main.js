@@ -3,6 +3,17 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import VueMdl from 'vue-mdl'
+import store from './vuex/store'
+/* eslint-disable no-new */
+new Vue({
+  store,
+  el: '#app',
+  render: h => h(App),
+  router
+})
+
+Vue.use(VueMdl)
 
 Vue.config.productionTip = false
 
