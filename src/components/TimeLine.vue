@@ -4,7 +4,9 @@
       <search></search>
       <card
         v-for="gif in this.gifs"
-        :gif="gif">
+        :key="gif.id"
+        :gif="gif"
+      >
       </card>
     </div>
   </main>

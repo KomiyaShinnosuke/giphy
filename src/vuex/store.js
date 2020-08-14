@@ -21,8 +21,11 @@ const actions = {
     commit(CHANGE_KEYWORD, keyword)
   },
   [SEARCH] ({ commit }, state) {
+    // ここでstate.keywordを渡せていない
+    console.log(state)
     getGIFs(state.keyword)
       .then(data => {
+        console.log(data)
         commit(SEARCH, data)
       })
   }
