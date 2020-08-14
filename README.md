@@ -1,3 +1,6 @@
+https://engineer.recruit-lifestyle.co.jp/techblog/2016-09-15-try-vue-flux/
+↑このサイトを参考にして作ったやつ
+
 # gipfy-vue
 
 > A Vue.js project
